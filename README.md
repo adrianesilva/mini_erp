@@ -13,13 +13,14 @@ Este é um projeto de um Mini ERP utilizando **PHP puro**, **MySQL** , **Bootstr
 
 ## 📂 Estrutura do Projeto
 
+```
 /mini_erp/
 │
 ├── config/
 │ └── conexao.php # Conexão com o banco de dados
 │ └── resources.html # Importação de CDNs (Bootstrap, jQuery)
 │
-├── controller/ # Controladores responsáveis pela lógica
+|── controller/ # Controladores responsáveis pela lógica
 │
 ├── model/ # Classes de modelo (acesso ao banco)
 │
@@ -32,7 +33,7 @@ Este é um projeto de um Mini ERP utilizando **PHP puro**, **MySQL** , **Bootstr
 │
 ├── index.php # Arquivo inicial do projeto
 └── README.md # Documentação do projeto
-
+```
 
 ## ⚙️ Funcionalidades
 
@@ -46,7 +47,7 @@ Este é um projeto de um Mini ERP utilizando **PHP puro**, **MySQL** , **Bootstr
 
 1. Clone o repositório:
 2. 
-git clone https://github.com/seu-usuario/seu-repositorio.git
+git clone https://github.com/adrianesilva/mini_erp.git
 
     Importe o banco de dados:
 
