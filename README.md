@@ -17,22 +17,21 @@ Este é um projeto de um Mini ERP utilizando **PHP puro**, **MySQL** , **Bootstr
 │
 ├── config/
 │ └── conexao.php # Conexão com o banco de dados
-│ └── resources.html # CDN bootstrap e jquery
+│ └── resources.html # Importação de CDNs (Bootstrap, jQuery)
 │
-├── controller/ #Controladores  
-|
-├── model/ #Modelos
+├── controller/ # Controladores responsáveis pela lógica
+│
+├── model/ # Classes de modelo (acesso ao banco)
 │
 ├── public/
-│ ├── imagens/ # Imagens dos produtos
+│ └── imagens/ # Imagens dos produtos
 │
-├── routes/ #Rotas dos arquivos
+├── routes/ # Definição de rotas e requisições
 │
-├── view/ #Telas do Projeto
+├── view/ # Telas (interfaces) do sistema
 │
-|── README.md # Documentação do projeto
-├── index.php 
-│
+├── index.php # Arquivo inicial do projeto
+└── README.md # Documentação do projeto
 
 
 ## ⚙️ Funcionalidades
